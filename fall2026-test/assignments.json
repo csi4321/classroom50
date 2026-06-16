@@ -1,4 +1,22 @@
 {
   "schema": "classroom50/assignments/v1",
-  "assignments": []
+  "assignments": [
+    {
+      "slug": "project1",
+      "name": "Project 1 Test",
+      "template": {
+        "owner": "csi4321",
+        "repo": "project1-template",
+        "branch": "main"
+      },
+      "due": "2026-09-16T04:59:00Z",
+      "due_meta": {
+        "input": "2026-09-15T23:59:00-05:00",
+        "offset": "-05:00",
+        "source": "explicit-offset"
+      },
+      "mode": "individual",
+      "autograder": "default"
+    }
+  ]
 }
